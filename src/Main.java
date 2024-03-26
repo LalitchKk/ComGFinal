@@ -68,7 +68,7 @@ import javax.swing.SwingUtilities;
                 repaint();
             }
         });
-        add(drawNewButton); // เพิ่มปุ่มวาดรูปใหม่ไปยัง JPanel
+        add(drawNewButton); // add BTN
 
         //if isFilling = false can  draw if not cannot draw
         addMouseListener(new MouseAdapter() {
